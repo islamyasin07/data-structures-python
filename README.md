@@ -22,6 +22,7 @@ All structures are implemented from scratch with clear documentation and basic u
 | Queue (using linked list)  | ✅ Done | `Day2/queue_linked_list.py`         |
 | Doubly Linked List         | ✅ Done | `Day2/doubly_linked_list.py`        |
 | Circular Linked List       | ✅ Done | `Day2/circular_linked_list.py`      |
+| Queue (Array)              | ✅ Done | `Day2/doubly_linked_list.py`        |
 
 ---
 
@@ -41,6 +42,20 @@ Day1/
 ├── test_stack_linked_list.py
 ``` 
 
+## 📁 Folder Structure (Day2)
+
+```
+Day2/ 
+├── queue_array.py
+├── doubly_linked_list.py
+├── circular_linked_list.py
+├── queue_linked_list.py
+├── test_queue_linked_list.py
+├── test_doubly_linked_list.py
+├── test_circular_linked_list.py
+├── test_queue_array.py
+``` 
+
 
 ## ⚙️ How to Run (Day 1)
 You can run any file using Python :
@@ -52,6 +67,7 @@ You can run any file using Python :
  `Day2/test_queue_linked_list.py`
  `Day2/test_doubly_linked_list.py`
  `Day2/test_circular_linked_list.py`
+ `Day2/test_queue_array.py`
 
 
 

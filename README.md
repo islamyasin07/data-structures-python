@@ -25,8 +25,21 @@ All structures are implemented from scratch with clear documentation and basic u
 | Queue (Array)              | ✅ Done | `Day2/doubly_linked_list.py`        |
 
 ---
+## 📅 Day 3 Tasks
 
+| Data Structure              | Status   | File Name                            |
+|----------------------------|----------|---------------------------------------|
+| Binary Tree                | ✅ Done  | `Day3/binary_tree.py`                |
+| Binary Search Tree (BST)   | ✅ Done  | `Day3/binary_search_tree.py`         |
+| Tree Traversals            | ✅ Done  | Included in both tree files above    |
+| STAR Behavioral Questions  | ✅ Done  | See: `Day3/README.md`                |
+---
+📌 **Note:**  
+Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 
+- ✅ STAR responses for 5+ behavioral interview questions  
+- ✅ Screenshots of AI feedback  
+- ✅ Summary of mock interview practice via Exponent  
 
 ## 📁 Folder Structure (Day1)
 
@@ -56,11 +69,24 @@ Day2/
 ├── test_queue_array.py
 ``` 
 
+## 📁 Folder Structure (Day3)
+
+```
+Day3/
+├── binary_tree.py
+├── binary_search_tree.py
+├── test_binary_tree.py
+├── test_binary_search_tree.py
+├── README.md ← (STAR responses & feedback screenshots)
+├── images/
+│ ├── manage_conflict_question.png
+│ └── prioritize_tasks_question.png
+```
+
 
 ## ⚙️ How to Run (Day 1)
 You can run any file using Python :
 `Day1/test_stack_linked_list.py` 
-
 
 ## ⚙️ How to Run (Day 2)
 You can run any file using Python :
@@ -68,6 +94,12 @@ You can run any file using Python :
  `Day2/test_doubly_linked_list.py`
  `Day2/test_circular_linked_list.py`
  `Day2/test_queue_array.py`
+
+## ⚙️ How to Run (Day 3)
+Use `py` to run each test file manually:
+ `Day3/test_binary_tree.py`
+ `Day3/test_binary_search_tree.py`
+
 
 
 
@@ -110,6 +142,18 @@ You can run any file using Python :
   - Last node connects back to head
   - Methods: `append`, `remove`, `display`, `size`, 
   - File: `circular_linked_list.py`
+
+## 📌 Description of Each Data Structure (Day 3)
+
+- **Binary Tree**
+  - Traversals: inorder, preorder, postorder
+  - File: `binary_tree.py`
+
+- **Binary Search Tree (BST)**
+  - Automatically places elements based on value
+  - Methods: insert, search, inorder, preorder, postorder
+  - File: `binary_search_tree.py`
+
 
 
 

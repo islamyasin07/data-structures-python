@@ -33,6 +33,7 @@ All structures are implemented from scratch with clear documentation and basic u
 | Binary Search Tree (BST)   | ✅ Done  | `Day3/binary_search_tree.py`         |
 | Tree Traversals            | ✅ Done  | Included in both tree files above    |
 | STAR Behavioral Questions  | ✅ Done  | See: `Day3/README.md`                |
+
 ---
 📌 **Note:**  
 Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
@@ -41,14 +42,19 @@ Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 - ✅ Screenshots of AI feedback  
 - ✅ Summary of mock interview practice via Exponent  
 ---
+
 ## 📅 Day 4 Tasks
 
-| Data Structure             | Status   | File Name                             |
+| Data Structure             | Status   | File Name                            |
 |----------------------------|----------|---------------------------------------|
 | Hash Table (with chaining) | ✅ Done  | `Day4/hash_table.py`                 |
 | Min Heap                   | ✅ Done  | `Day4/min_heap.py`                   |
 | Graph (Adjacency List)     | ✅ Done  | `Day4/graph.py`                      |
+| Visualizations & Screenshots | ✅ Done  | See: `Day4/graph_visual.py`, `hash_table_visual.py`, `images/` |
+
 ---
+📌 **Note:**  
+Day 4 includes a separate `README.md` inside the `Day4/` folder which contains: Visualizations & Screenshots for graph & hash table
 
 ## 📁 Folder Structure (Day1)
 

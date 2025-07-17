@@ -40,7 +40,6 @@ Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 - ✅ STAR responses for 5+ behavioral interview questions  
 - ✅ Screenshots of AI feedback  
 - ✅ Summary of mock interview practice via Exponent  
-
 ---
 ## 📅 Day 4 Tasks
 

@@ -43,11 +43,11 @@ Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 
 ## 📅 Day 4 Tasks
 
-| Data Structure             | Status   | File Name                  |
-|----------------------------|----------|-----------------------------|
-| Hash Table (with chaining) | ✅ Done  | `Day4/hash_table.py`       |
-| Min Heap                   | ✅ Done  | `Day4/min_heap.py`         |
-| Graph (Adjacency List)     | ✅ Done  | `Day4/graph.py`            |
+| Data Structure             | Status   | File Name                             |
+|----------------------------|----------|---------------------------------------|
+| Hash Table (with chaining) | ✅ Done  | `Day4/hash_table.py`                 |
+| Min Heap                   | ✅ Done  | `Day4/min_heap.py`                   |
+| Graph (Adjacency List)     | ✅ Done  | `Day4/graph.py`                      |
 ---
 
 ## 📁 Folder Structure (Day1)

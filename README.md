@@ -41,6 +41,15 @@ Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 - ✅ Screenshots of AI feedback  
 - ✅ Summary of mock interview practice via Exponent  
 
+## 📅 Day 4 Tasks
+
+| Data Structure             | Status   | File Name                  |
+|----------------------------|----------|-----------------------------|
+| Hash Table (with chaining) | ✅ Done  | `Day4/hash_table.py`       |
+| Min Heap                   | ✅ Done  | `Day4/min_heap.py`         |
+| Graph (Adjacency List)     | ✅ Done  | `Day4/graph.py`            |
+---
+
 ## 📁 Folder Structure (Day1)
 
 ```
@@ -83,6 +92,17 @@ Day3/
 │ └── prioritize_tasks_question.png
 ```
 
+## 📁 Folder Structure (Day4)
+
+```
+Day4/
+├── hash_table.py
+├── min_heap.py
+├── graph.py
+├── test_hash_table.py
+├── test_min_heap.py
+├── test_graph.py
+```
 
 ## ⚙️ How to Run (Day 1)
 You can run any file using Python :
@@ -100,6 +120,11 @@ Use `py` to run each test file manually:
  `Day3/test_binary_tree.py`
  `Day3/test_binary_search_tree.py`
 
+## ⚙️ How to Run (Day 4)
+Use `py` to run each test file manually:
+ `Day4/test_graph.py`
+ `Day4/test_hash_table.py`
+ `Day4/test_min_heap.py`
 
 
 
@@ -153,6 +178,25 @@ Use `py` to run each test file manually:
   - Automatically places elements based on value
   - Methods: insert, search, inorder, preorder, postorder
   - File: `binary_search_tree.py`
+
+## 📌 Description of Each Data Structure (Day 4)
+
+- **HashTable**
+  - Stores key-value pairs using list of buckets (chaining)
+  - Methods: `insert`, `get`, `remove`, `display`
+  - File: `hash_table.py`
+
+- **MinHeap**
+  - Keeps smallest value at the top using list-based binary heap
+  - Methods: `insert`, `remove_min`, `display`
+  - File: `min_heap.py`
+
+- **Graph**
+  - Directed graph using adjacency list (dictionary of neighbors)
+  - Methods: `add_vertex`, `add_edge`, `display`
+  - File: `graph.py`
+
+
 
 
 

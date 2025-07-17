@@ -41,6 +41,7 @@ Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 - ✅ Screenshots of AI feedback  
 - ✅ Summary of mock interview practice via Exponent  
 
+---
 ## 📅 Day 4 Tasks
 
 | Data Structure             | Status   | File Name                             |

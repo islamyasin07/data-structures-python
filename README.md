@@ -56,6 +56,16 @@ Day 3 includes a separate `README.md` inside the `Day3/` folder which contains:
 📌 **Note:**  
 Day 4 includes a separate `README.md` inside the `Day4/` folder which contains: Visualizations & Screenshots for graph & hash table
 
+---
+## 📅 Day 5 Tasks
+
+| Data Structure              | Status   | File Name                             |
+|-----------------------------|----------|----------------------------------------|
+| Trie                        | ✅ Done  | `Day5/trie.py`                         |
+| Union-Find (Disjoint Set)   | ✅ Done  | `Day5/disjoint_set.py`                |
+| Graph Traversal (BFS & DFS) | ✅ Done  | `Day5/graph_traversal.py`             |
+---
+
 ## 📁 Folder Structure (Day1)
 
 ```
@@ -109,6 +119,17 @@ Day4/
 ├── test_min_heap.py
 ├── test_graph.py
 ```
+## 📁 Folder Structure (Day5)
+
+```
+Day5/
+├── trie.py
+├── disjoint_set.py
+├── graph_traversal.py
+├── test_trie.py
+├── test_disjoint_set.py
+├── test_graph_traversal.py
+```
 
 ## ⚙️ How to Run (Day 1)
 You can run any file using Python :
@@ -131,6 +152,14 @@ Use `py` to run each test file manually:
  `Day4/test_graph.py`
  `Day4/test_hash_table.py`
  `Day4/test_min_heap.py`
+
+## ⚙️ How to Run (Day 5)
+
+Use `py` to run each test file manually:
+
+`py Day5/test_trie.py`  
+`py Day5/test_disjoint_set.py`  
+`py Day5/test_graph_traversal.py`
 
 
 
@@ -201,6 +230,23 @@ Use `py` to run each test file manually:
   - Directed graph using adjacency list (dictionary of neighbors)
   - Methods: `add_vertex`, `add_edge`, `display`
   - File: `graph.py`
+
+## 📌 Description of Each Data Structure (Day 5)
+
+- **Trie**
+  - Tree-like structure used for fast word/prefix lookup
+  - Methods: `insert`, `search`, `starts_with`
+  - File: `trie.py`
+
+- **Disjoint Set (Union-Find)**
+  - Tracks connected components efficiently
+  - Methods: `find`, `union`, `connected`, `display`
+  - File: `disjoint_set.py`
+
+- **Graph Traversal**
+  - Represents a directed graph using an adjacency list
+  - Supports `bfs(start)` and `dfs(start)` from a given node
+  - File: `graph_traversal.py`
 
 
 

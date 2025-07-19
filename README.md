@@ -169,50 +169,67 @@ Use `py` to run each test file manually:
   - Uses built-in Python `list`
   - Methods: `add`, `insert_at`, `remove`, `get_at`, `size`
   - File: `dynamic_list.py`
+  - **Time Complexity:** O(1) for append, O(n) for insert/remove
+  - **Space Complexity:** O(n)
 
 - **SinglyLinkedList**
   - Node-based linked list structure
   - Methods: `add`, `remove`, `display`, `size`, `get_at`
   - File: `singly_linked_list.py`
+  - **Time Complexity:** O(1) insert at head, O(n) search/remove
+  - **Space Complexity:** O(n)
 
 - **StackArray**
   - Stack implemented using Python `list` (LIFO)
   - Methods: `push`, `pop`, `invs`, `is_empty`, `size`, `display`
   - File: `stack_array.py`
+  - **Time Complexity:** O(1) for push/pop
+  - **Space Complexity:** O(n)
 
 - **StackLinkedList**
   - Stack using a custom linked list structure
   - Methods: `push`, `pop`, `invs`, `is_empty`, `size`, `display`
   - File: `stack_linked_list.py`
-
+  - **Time Complexity:** O(1) for push/pop
+  - **Space Complexity:** O(n)
 
 ## 📌 Description of Each Data Structure (Day 2)
 
 - **Queue (Linked List)**
-  - Uses built-in Python `list`
+  - Uses custom linked list
   - Methods: `enqueue`, `dequeue`, `display`, `size`, `invs`
   - File: `queue_linked_list.py`
+  - **Time Complexity:** O(1) for enqueue/dequeue
+  - **Space Complexity:** O(n)
 
 - **Doubly Linked List**
   - Each node has next and prev
   - Methods: `append`, `prepend`, `remove`, `display_forward`, `display_backward`
   - File: `doubly_linked_list.py`
+  - **Time Complexity:** O(1) insert at head/tail, O(n) search/remove
+  - **Space Complexity:** O(n)
 
 - **Circular Linked List**
   - Last node connects back to head
-  - Methods: `append`, `remove`, `display`, `size`, 
+  - Methods: `append`, `remove`, `display`, `size`
   - File: `circular_linked_list.py`
+  - **Time Complexity:** O(1) insert at tail (if tail saved), O(n) remove
+  - **Space Complexity:** O(n)
 
 ## 📌 Description of Each Data Structure (Day 3)
 
 - **Binary Tree**
   - Traversals: inorder, preorder, postorder
   - File: `binary_tree.py`
+  - **Time Complexity:** O(n) for traversals
+  - **Space Complexity:** O(h) where h = tree height (recursion stack)
 
 - **Binary Search Tree (BST)**
   - Automatically places elements based on value
   - Methods: insert, search, inorder, preorder, postorder
   - File: `binary_search_tree.py`
+  - **Time Complexity:** O(log n) average, O(n) worst-case
+  - **Space Complexity:** O(n)
 
 ## 📌 Description of Each Data Structure (Day 4)
 
@@ -220,16 +237,22 @@ Use `py` to run each test file manually:
   - Stores key-value pairs using list of buckets (chaining)
   - Methods: `insert`, `get`, `remove`, `display`
   - File: `hash_table.py`
+  - **Time Complexity:** O(1) average, O(n) worst (collisions)
+  - **Space Complexity:** O(n)
 
 - **MinHeap**
   - Keeps smallest value at the top using list-based binary heap
   - Methods: `insert`, `remove_min`, `display`
   - File: `min_heap.py`
+  - **Time Complexity:** O(log n)
+  - **Space Complexity:** O(n)
 
 - **Graph**
   - Directed graph using adjacency list (dictionary of neighbors)
   - Methods: `add_vertex`, `add_edge`, `display`
   - File: `graph.py`
+  - **Time Complexity:** O(1) for add, O(n) for display
+  - **Space Complexity:** O(V + E)
 
 ## 📌 Description of Each Data Structure (Day 5)
 
@@ -237,16 +260,22 @@ Use `py` to run each test file manually:
   - Tree-like structure used for fast word/prefix lookup
   - Methods: `insert`, `search`, `starts_with`
   - File: `trie.py`
+  - **Time Complexity:** O(m) where m = length of word
+  - **Space Complexity:** O(n * a) where n = number of words, a = alphabet size
 
 - **Disjoint Set (Union-Find)**
   - Tracks connected components efficiently
   - Methods: `find`, `union`, `connected`, `display`
   - File: `disjoint_set.py`
+  - **Time Complexity:** O(α(n)) 
+  - **Space Complexity:** O(n)
 
 - **Graph Traversal**
   - Represents a directed graph using an adjacency list
-  - Supports `bfs(start)` and `dfs(start)` from a given node
   - File: `graph_traversal.py`
+  - **Time Complexity:** O(V + E)
+  - **Space Complexity:** O(V)
+
 
 
 
